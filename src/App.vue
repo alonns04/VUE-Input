@@ -15,9 +15,10 @@ export default{
 </script>
 
 <template>
-
+  <div style="text-align: center;">
+<h1>INPUT CON VUE</h1>
 <inputTag  @onTagsChange="handleOnTagsChange"/>
-
+</div>
 </template>
 
 <style scoped>
