@@ -23,7 +23,7 @@ export default {
                     this.currentValue = "";
                     this.$emit("OnTagsChange",this.tags);
                     }
-                 }
+                }
         },
         deleteTag(tag){
             this.tags = this.tags.filter(item => item !== tag);
